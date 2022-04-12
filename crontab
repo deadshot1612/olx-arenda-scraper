@@ -1,0 +1,3 @@
+MONGO_CLIENT_CONNECTION='mongodb://localhost:27017'
+
+*/1 * * * * python3 /home/m1rsadikov/scraper/scraper.py> /var/log/somelogfile.txt 2>&1
